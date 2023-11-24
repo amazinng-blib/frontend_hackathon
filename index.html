@@ -1,0 +1,461 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div>
+          <a href="https://www.shopify.com/" target="_blank" rel="noopenner">
+            <img
+              src="https://res.cloudinary.com/amazing1917/image/upload/v1700505005/shopify_Group_cfdjnt.png"
+              alt="logo"
+              class="img big-screen"
+            />
+          </a>
+          <a href="https://www.shopify.com/" target="_blank" rel="noopenner">
+            <img
+              src="https://res.cloudinary.com/amazing1917/image/upload/v1700505076/Shopify.com_icon_lepvpa.png"
+              alt="shopify logo"
+              class="img small-screen"
+            />
+          </a>
+        </div>
+
+        <div class="search-section" tabindex="0">
+          <img
+            src="https://res.cloudinary.com/amazing1917/image/upload/v1700496697/SearchMinor-2_qrwvs7.png"
+            alt="search-icon"
+            class="search-img"
+          />
+          <input type="text" name="search" placeholder="Search" class="input" />
+        </div>
+
+        <div class="notification-text">
+          <div class="notification-container" id="alert" tabindex="0">
+            <img
+              src="https://res.cloudinary.com/amazing1917/image/upload/v1700733801/bell-removebg-preview_z0vm1p.png"
+              alt="notification"
+              class="notification"
+            />
+            <div class="alert-modal-container" id="alert-modal">
+              <div class="alert-modal">
+                <h4>Alerts</h4>
+                <div class="alert-icons">
+                  <img
+                    src="https://res.cloudinary.com/amazing1917/image/upload/v1700558741/FilterMajor_s3aafk.png"
+                    alt="bars"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/amazing1917/image/upload/v1700735418/circle_good_znegxt.png"
+                    alt="good icon"
+                    class="close-notification"
+                  />
+                </div>
+              </div>
+              <p>Alerts about your store and account will show here</p>
+            </div>
+          </div>
+
+          <div class="notification-username" id="user-details" tabindex="0">
+            <h2>Davii Collections</h2>
+            <p>DC</p>
+
+            <div class="details-modal" id="user-details-modal">
+              <div class="user-details-container">
+                <div>
+                  <p>DC</p>
+                  <h2>Davii Collections</h2>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700569295/check_rksved.png"
+                  alt="checked icon"
+                  class="close-details-modal"
+                />
+              </div>
+              <div class="all-stores sub-container" tabindex="0">
+                <!-- <a
+                  href="https://admin.shopify.com"
+                  target="_blank"
+                  class="img-text"
+                > -->
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700569880/StoreMinor_q5qkwh.png"
+                  alt="store"
+                />
+                <span class="header">All Stores</span>
+                <!-- </a> -->
+              </div>
+              <hr />
+
+              <div class="help-center sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Help Center</span>
+                <!-- </a> -->
+              </div>
+              <div class="changelog sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Changelog</span>
+                <!-- </a> -->
+              </div>
+              <div class="community-forum sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Community forums</span>
+                <!-- </a> -->
+              </div>
+              <div class="hire-shopify-partner sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Hire a Shopify Partner</span>
+                <!-- </a> -->
+              </div>
+              <div class="keyboard-shortcut sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Keyboard shortcuts</span>
+                <!-- </a> -->
+              </div>
+              <hr />
+              <div class="name-email-section">
+                <h5>David Micheal</h5>
+                <a
+                  href="https://admin.shopify.com/"
+                  target="_blank"
+                  class="user-email"
+                >
+                  <span class="sub-container" tabindex="0"
+                    >davidmicheal@gmail.com
+                  </span>
+                </a>
+              </div>
+              <div class="manage-account sub-container" tabindex="0">
+                <!-- <a href="https://admin.shopify.com" target="_blank"> -->
+                <span>Manage account</span>
+                <!-- </a> -->
+              </div>
+              <div class="log-out sub-container" tabindex="0">
+                <a href="https://admin.shopify.com" target="_blank">
+                  <span>Log out</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- card section -->
+      <section class="details-section">
+        <header class="select-plan">
+          <div>
+            <p class="first-p">
+              Extend your trial for $1/month for 3 months on select plans.
+            </p>
+            <img
+              src="https://res.cloudinary.com/amazing1917/image/upload/v1700498153/cancel_phitat.png"
+              alt="cancel"
+              class="delete-sm"
+            />
+          </div>
+          <div>
+            <a href="https://shopify.com/pricing" target="_blank"
+              >Select a plan</a
+            >
+            <!-- <button type="button">Select a plan</button> -->
+            <img
+              src="https://res.cloudinary.com/amazing1917/image/upload/v1700498153/cancel_phitat.png"
+              alt="cancel"
+              class="delete-lg"
+            />
+          </div>
+        </header>
+        <article class="details-section-info">
+          <!-- header -->
+          <header>
+            <div class="text-icon">
+              <p>Setup guide</p>
+              <img
+                src="https://res.cloudinary.com/amazing1917/image/upload/v1700500243/Icons_hzivzk.png"
+                alt="caret-up"
+                class="show-icon"
+                id="close"
+              />
+              <img
+                src="https://res.cloudinary.com/amazing1917/image/upload/v1700514707/colapse_icon_zz1xzm.png"
+                alt="caret down"
+                class="hide-icon"
+                id="open"
+              />
+            </div>
+            <p>Use this personalized guide to get your store up and running.</p>
+            <div class="progress-bar">
+              <span class="value">0</span>/ <span class="total-item">0</span>
+              <span class="completed">completed</span>
+              <progress value="0" max="0" class="progress"></progress>
+            </div>
+          </header>
+
+          <!-- text section -->
+
+          <section class="article" id="list-container">
+            <div class="div-container">
+              <div class="wrapper-container">
+                <div class="first-div" id="img_div">
+                  <div class="img-container">
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700505344/Component_14_usyjyv.png"
+                      alt="circle_img"
+                      class="circle_img"
+                      id="normal"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581562/solid_circle_poo7ib.png"
+                      alt="solid circle"
+                      class="solid_circle"
+                      id="hover"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581593/half_circle_nzhilp.png"
+                      alt="half circle"
+                      class="half_circle"
+                      id="loading"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700591500/property_checked_sne1ro.png"
+                      alt="half circle"
+                      class="checked"
+                      id="checked"
+                    />
+                  </div>
+                  <div class="default">
+                    <h5>Customize your online store</h5>
+                  </div>
+                  <div class="display">
+                    <h5>Customize your online store</h5>
+                    <p>
+                      Choose a theme and add your logo, colors, and images to
+                      reflect your brand. <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700512922/Customize_your_online_store.img_mbdifc.png"
+                  alt="placeholder"
+                  class="hide-img"
+                />
+              </div>
+            </div>
+
+            <div class="div-container">
+              <div class="wrapper-container">
+                <div class="first-div" id="img_div">
+                  <div class="img-container">
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700505344/Component_14_usyjyv.png"
+                      alt="circle_img"
+                      class="circle_img"
+                      id="normal"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581562/solid_circle_poo7ib.png"
+                      alt="solid circle"
+                      class="solid_circle"
+                      id="hover"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581593/half_circle_nzhilp.png"
+                      alt="half circle"
+                      class="half_circle"
+                      id="loading"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700591500/property_checked_sne1ro.png"
+                      alt="half circle"
+                      class="checked"
+                      id="checked"
+                    />
+                  </div>
+                  <div class="default">
+                    <h5>Add your first product</h5>
+                  </div>
+                  <div class="display">
+                    <h5>Add your first product</h5>
+                    <p>
+                      Write a description, add photos, and set pricing for the
+                      products you plan to sell.
+                      <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700513686/Add_your_first_product.img_in4uk6.png"
+                  alt="placeholder"
+                  class="hide-img"
+                />
+              </div>
+            </div>
+
+            <div class="div-container">
+              <div class="wrapper-container">
+                <div class="first-div" id="img_div">
+                  <div class="img-container">
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700505344/Component_14_usyjyv.png"
+                      alt="circle_img"
+                      class="circle_img"
+                      id="normal"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581562/solid_circle_poo7ib.png"
+                      alt="solid circle"
+                      class="solid_circle"
+                      id="hover"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581593/half_circle_nzhilp.png"
+                      alt="half circle"
+                      class="half_circle"
+                      id="loading"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700591500/property_checked_sne1ro.png"
+                      alt="half circle"
+                      class="checked"
+                      id="checked"
+                    />
+                  </div>
+                  <div class="default">
+                    <h5>Add Custom Domain</h5>
+                  </div>
+                  <div class="display">
+                    <h5>Add Custom Domain</h5>
+                    <p>
+                      Your current domain is 222219.myshopify.com but you can
+                      add a custom domain to help customers find your online
+                      store.
+                      <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700665639/Add_a_custom_domain.img_nn0hyq.png"
+                  alt="placeholder"
+                  class="hide-img"
+                />
+              </div>
+            </div>
+
+            <div class="div-container">
+              <div class="wrapper-container">
+                <div class="first-div" id="img_div">
+                  <div class="img-container">
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700505344/Component_14_usyjyv.png"
+                      alt="circle_img"
+                      class="circle_img"
+                      id="normal"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581562/solid_circle_poo7ib.png"
+                      alt="solid circle"
+                      class="solid_circle"
+                      id="hover"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581593/half_circle_nzhilp.png"
+                      alt="half circle"
+                      class="half_circle"
+                      id="loading"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700591500/property_checked_sne1ro.png"
+                      alt="half circle"
+                      class="checked"
+                      id="checked"
+                    />
+                  </div>
+                  <div class="default">
+                    <h5>Name your store</h5>
+                  </div>
+                  <div class="display">
+                    <h5>Name your store</h5>
+                    <p>
+                      Your temporary store name is currently Davii collections.
+                      The store name appears in your admin and your online
+                      store.
+                      <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700513698/Name_your_store.img_fmrq1q.png"
+                  alt="placeholder"
+                  class="hide-img"
+                />
+              </div>
+            </div>
+
+            <div class="div-container">
+              <div class="wrapper-container">
+                <div class="first-div" id="img_div">
+                  <div class="img-container">
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700505344/Component_14_usyjyv.png"
+                      alt="circle_img"
+                      class="circle_img"
+                      id="normal"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581562/solid_circle_poo7ib.png"
+                      alt="solid circle"
+                      class="solid_circle"
+                      id="hover"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700581593/half_circle_nzhilp.png"
+                      alt="half circle"
+                      class="half_circle"
+                      id="loading"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/amazing1917/image/upload/v1700591500/property_checked_sne1ro.png"
+                      alt="half circle"
+                      class="checked"
+                      id="checked"
+                    />
+                  </div>
+                  <div class="default">
+                    <h5>Set up a payment provider</h5>
+                  </div>
+                  <div class="display">
+                    <h5>Set up a payment provider</h5>
+                    <p>
+                      Choose a payment provider to start accepting payments.
+                      You’ll need to create an account with the payment provider
+                      and set it up with your Shopify store.
+                      <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/amazing1917/image/upload/v1700513710/Set_up_a_payment_provider.img_riostw.png"
+                  alt="placeholder"
+                  class="hide-img"
+                />
+              </div>
+            </div>
+          </section>
+          <!-- end  -->
+        </article>
+      </section>
+      <!-- end of card section -->
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
