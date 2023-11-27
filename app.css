@@ -452,6 +452,14 @@ hr {
   display: flex;
   align-items: center;
   gap: 14px;
+  max-width: max-content;
+  border: none;
+  outline: none;
+}
+
+.details-section header div:nth-child(2):active {
+  border: none;
+  outline: none;
 }
 
 .details-section header div:nth-child(2) a {
@@ -460,8 +468,8 @@ hr {
   background-color: inherit;
   padding: 6px 12px;
   border-radius: 12px;
-  /* color: var(--black-heavy); */
-  color: var(--white);
+  color: var(--black-heavy);
+  background-color: var(--white);
   border: none;
   cursor: pointer;
 }
@@ -470,8 +478,8 @@ hr {
 .details-section header div:nth-child(2) a:hover {
   border: none;
   text-decoration: none;
-  background-color: var(--dark-light);
-  color: var(--black-heavy);
+  background-color: var(--gray-medium);
+  color: var(--white);
 }
 
 .details-section header div:nth-child(2) button:focus {
@@ -506,6 +514,14 @@ hr {
   width: 100%;
   background-color: inherit;
   padding-left: 16px;
+}
+
+.text-icon {
+  background-color: inherit;
+}
+
+.text-icon:active {
+  background-color: inherit;
 }
 
 .details-section-info header .text-icon .show-icon {
@@ -731,4 +747,8 @@ progress::-moz-progress-bar {
   cursor: pointer;
   color: var(--black-heavy);
   font-weight: 600;
+}
+
+.alert-border {
+  border: 2px solid #005bd3;
 }

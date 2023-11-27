@@ -46,7 +46,7 @@ let isFocused = false;
 const openAlertModal = () => {
   userModal.classList.remove('show-info-modal');
   alertModal.classList.toggle('show-notification-modal');
-  alertContainer.style.border = '2px solid #005bd3';
+  alertContainer.classList.toggle('alert-border');
   usrDetailsDropDownContainer.style.border = 'none';
 };
 
@@ -54,7 +54,7 @@ const openAlertModal = () => {
 
 const closeAlertModal = () => {
   alertModal.classList.toggle('show-notification-modal');
-  alertContainer.style.border = 'none';
+  alertContainer.classList.toggle('alert-border');
 };
 
 // open user details modal function
@@ -64,7 +64,7 @@ const openUserModal = (e) => {
   alertModal.classList.remove('show-notification-modal');
   userModal.classList.add('show-info-modal');
   usrDetailsDropDownContainer.style.border = '2px solid #005bd3';
-  alertContainer.style.border = 'none';
+  alertContainer.classList.remove('alert-border');
 
   const firstElement = document.querySelector('.all-stores');
 
