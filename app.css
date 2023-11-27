@@ -384,7 +384,7 @@ hr {
 
 .notification-container .alert-modal-container p {
   margin-top: 16px;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   color: var(--gray-semi-medium);
@@ -416,6 +416,7 @@ hr {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-bottom: 12px;
+  font-size: 14px;
   @media screen and (max-width: 767px) {
     border-radius: 0;
   }
@@ -438,7 +439,7 @@ hr {
 
 .details-section header .first-p {
   color: var(--gray-faint);
-  font-size: 13px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.6px;
@@ -455,6 +456,8 @@ hr {
   max-width: max-content;
   border: none;
   outline: none;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .details-section header div:nth-child(2):active {
@@ -710,6 +713,7 @@ progress::-moz-progress-bar {
 
 .default h5 {
   cursor: pointer;
+  font-size: 14px;
 }
 
 .hide-img,
